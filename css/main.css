@@ -1,22 +1,27 @@
-/**{
-	border: 1px solid black;
-}*/
-
-body{
-	width:1200px;
-	margin: 0 auto;
+*{
+	-webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box; box-sizing: border-box;
 }
 
-.header_container{
-	position: fixed;
-	height: 350px;
+// Layout for the page overview 
+body{	
 	width:1200px;
+	margin: 0 auto;
 }
 
 main {
 	position: relative;
 	margin-top: 350px;
 }
+
+// Header styling
+.header_container{
+	position: fixed;
+	height: 350px;
+	width:1200px;
+}
+
 
 .header__title{
 	position:relative;
@@ -34,7 +39,7 @@ main {
 	float: right;
 }
 
-
+// Clearfix work around
 .clearfix:after {
      visibility: hidden;
      display: block;
