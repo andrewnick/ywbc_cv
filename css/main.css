@@ -12,14 +12,12 @@ body {
 }
 
 main {
-	position: relative;
-	padding-top: 350px;
-	z-index:-1;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 /* Header styling */
 .header_container {
-	position: fixed;
 	width: inherit;
 }
 
@@ -29,6 +27,13 @@ main {
 	background-color: white;
 	/*background-image: url("../assets/ski2.jpeg");*/
 	background-repeat: no-repeat;
+}
+
+.header__title {
+	font-size: 30px;
+	color: black;
+	display: block;
+	float: left;
 }
 
 .header__picture_container {
@@ -44,14 +49,11 @@ main {
 	padding:10px;
 	clear:both;
 }
-.header__title {
-	color: black;
-	display:inline-block;
-	float:left;
-}
+
 
 .header__details {
 	display:inline-block;
+	clear:both;
 }
 
 .header__picture {
@@ -60,35 +62,83 @@ main {
 	top:50%;
 }
 
-/*Style for link text*/
 .button {
 	vertical-align: middle;
 }
 
-.button__textsyle{
+.button__textsyle {
 	font-size: 24px;
 	color: white;
 	text-decoration: none;
 	text-align: center;
+	margin: auto;
 }
 
-.button_container{
+.button_container {
 	display: inline-block;
 	width: 200px;
 	height:50px;	
 }
 
-.button:hover{
+.button:hover {
 	color:#c7b8a5 ;
 }
 
-.button--blue{
+.button--blue {
 	background-color:#7da1df;
 }
 
-.button--orange{
+.button--orange { 
 	background-color:#fc5305;
 }
+
+.exp__article {
+	margin-bottom: 20px;
+}
+
+.exp__basics {
+	display: inline-block;
+	padding-left: 10px;
+	border-left: 2px solid black;
+	float:left;
+}
+
+.exp__details {
+	margin-right: 50px;
+	width: 700px;
+	float: right;
+}
+
+/* Footer Styles */
+
+/* Logo size and position */
+.footer__container__text {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.footer_logo {
+	display: inline-block;
+
+}
+
+.footer__text__color {
+	color: black;
+}
+
+.footer__text__margins {
+	margin: 0px;
+}
+
+/* Utility Text */
+.link_text{
+	text-decoration: none;
+}
+
+.content_indent {
+	padding-left: 50px;
+}
+
 
  /*Clearfix work around*/
 .clearfix:after {
