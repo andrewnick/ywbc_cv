@@ -12,54 +12,62 @@ body {
 }
 
 main {
+	/*padding-top: 20px;*/
 	padding-left: 50px;
 	padding-right: 50px;
+}
+
+section {
+	padding-top: 20px;
 }
 
 /* Header styling */
 .header_container {
 	width: inherit;
+	height:350px;
 }
 
-.header_container_text {
-	display: block;
+.header_text_container {
+	display: inline-block;
+	width:800px;
 	height: 300px;
-	background-color: white;
+	float:left;
 	/*background-image: url("../assets/ski2.jpeg");*/
-	background-repeat: no-repeat;
-}
-
-.header__title {
-	font-size: 30px;
-	color: black;
-	display: block;
-	float: left;
+	/*background-repeat: no-repeat;*/
 }
 
 .header__picture_container {
+	display: inline-block;
 	width:400px;
 	height:300px;
 	float: right;
 }
 
-.header_nav {
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;	
-	background-color: white;	
-	padding:10px;
-	clear:both;
+.header__title {
+	font-size: 60px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: black;
+	position: relative;
+	left:150px;
+	top: 100px;
 }
 
-
 .header__details {
-	display:inline-block;
-	clear:both;
+	position:relative;
+	left:150px;
+	top: 90px;
+	list-style-type: none;
 }
 
 .header__picture {
 	position: absolute;
-	margin-top: -200px;
-	top:50%;
+	margin-top: 150px;
+	bottom:50%;
+}
+
+.header_nav {
+	padding-left:20px;
 }
 
 .button {
@@ -69,18 +77,18 @@ main {
 .button__textsyle {
 	font-size: 24px;
 	color: white;
+	line-height: 50px;
 	text-decoration: none;
-	text-align: center;
-	margin: auto;
 }
 
 .button_container {
 	display: inline-block;
-	width: 200px;
+	width: 275px;
 	height:50px;	
+	text-align: center;
 }
 
-.button:hover {
+.button__textsyle:hover {
 	color:#c7b8a5 ;
 }
 
@@ -99,7 +107,6 @@ main {
 .exp__basics {
 	display: inline-block;
 	padding-left: 10px;
-	border-left: 2px solid black;
 	float:left;
 }
 
@@ -107,6 +114,23 @@ main {
 	margin-right: 50px;
 	width: 700px;
 	float: right;
+}
+
+.edu__title {
+	margin-bottom: 10px;
+}
+
+.edu__provider {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.edu__date {
+	margin-top: 10px;
+}
+
+.skill_list_indent {
+	margin-left: 50px;
 }
 
 /* Footer Styles */
@@ -128,6 +152,11 @@ main {
 
 .footer__text__margins {
 	margin: 0px;
+}
+
+.footer_facebook_link {
+	float:right;
+	margin-top:100px;
 }
 
 /* Utility Text */

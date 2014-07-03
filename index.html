@@ -11,29 +11,33 @@
 	<body>
 		<!--  -->
 		<header class="header_container clearfix">
-			<div class="header_container_text">
-				<div class="header header__title">
-					<h1>Andrew Nicholas</h1>
-				</div>
-				<div class="header header__details">
-					<ul>
+			<div class="header_text_container">
+					<h1 class="header__title">Andrew Nicholas</h1>				
+					<ul class="header__details">
 						<li><strong>Email:</strong> <a href="mailto:andrew.d.nicholas@gmail.com" target="_top"> andrew.d.nicholas@gmail.com </a> </li>
-						<li><strong>Phone:</strong> 0800 Resume</li>
-					</ul>	
-				</div>
-				<div class= "header__picture_container">
+						<li><strong>Phone:</strong> 027 304 3384</li>
+					</ul>					
+			</div>
+
+			<div class= "header__picture_container">
 					<img class=	"header__picture" src="assets/0001_Profile_Picture_01.gif" alt="Profile picture">
-				</div>
 			</div>
 			
 			<!-- Navigation links to the different sections of the same page -->
 			<nav class="header_nav">
-				<div class="button_container button--blue"> <a class="button__textsyle" href="#intro">Introduction</a></div>
-				<div class="button_container button--blue"><a class="button__textsyle" href="#exp">Experience</a></div>
-				<div class="button_container button--blue"><a class="button__textsyle" href="#edu">Education</a></div>
-				<div class="button_container button--blue"><a class="button__textsyle" href="#skills">Skills</a>	</div>
-			</nav> 
-			
+				<div class="button_container button--blue">
+					<a class="button__textsyle" href="#intro">Introduction</a>
+				</div>
+				<div class="button_container button--blue">
+					<a class="button__textsyle" href="#exp">Experience</a>
+				</div>
+				<div class="button_container button--blue">
+					<a class="button__textsyle" href="#edu">Education</a>
+				</div>
+				<div class="button_container button--blue">
+					<a class="button__textsyle" href="#skills">Skills</a>
+				</div>
+			</nav> 			
 		</header>
 
 		<main>
@@ -51,7 +55,6 @@
 				</div>
 			</section>
 
-			<hr>
 			<!-- This section contatins my experiences content  -->
 			<section class="exp__container">
 				<h2><a id="exp">Experience</a></h2>
@@ -112,27 +115,25 @@
 				</article>
 			</section>
 
-			<hr>
 			<!-- This section contains my education content  -->
 			<section class="edu_container">
 				<h2><a id="edu">Education</a></h2>
 				<article>
-					<h3>BEng(Hons) - Electrical and Electronic Engineering</h3> 				<!--Title -->
-					<h4>Canterbury University</h4> <!--Education Provider-->
-					<h5>Date: 2010 - 2011</h5> 				<!--Date -->
+					<h3 class="edu__title content_indent">BEng(Hons) - Electrical and Electronic Engineering</h3> 				<!--Title -->
+					<h4 class="edu__provider content_indent">Canterbury University</h4> <!--Education Provider-->
+					<h5 class="edu__date content_indent">Date: 2010 - 2011</h5> 				<!--Date -->
 				</article>
 				<article>
-					<h3>BSc - Electronics</h3> 				<!--Title -->
-					<h4>Massey University</h4> <!--Education Provider-->
-					<h5>Date: 2006 - 2008</h5> 				<!--Date -->
+					<h3 class="edu__title content_indent">BSc - Electronics</h3> 				<!--Title -->
+					<h4 class="edu__provider content_indent">Massey University</h4> <!--Education Provider-->
+					<h5 class="edu__date content_indent">Date: 2006 - 2008</h5> 				<!--Date -->
 				</article>
 			</section>
-			<hr>
 			<!-- This section contains my skills content  -->
 			<section class="skill_container">
 				<h2><a id="skills">Skills</a></h2>
-				<h3> Programming Languages </h3>
-				<ol>
+				<h3 class="content_indent"> Programming Languages </h3>
+				<ol class="skill_list_indent content_indent">
 					<li>HTML5</li>
 					<li>CSS3</li>
 					<li>Javascript</li>
@@ -144,6 +145,7 @@
 		</main>
 
 		<hr>	
+
 		<!-- Contact information and logo displayed in the footer -->
 		<footer class="footer footer_container">
 			<img class="footer__logo__size" src="assets/0001_Logo_AN_05.gif" alt="Logo">
@@ -151,6 +153,7 @@
 				<h5 class="footer__text__color footer__text__margins">Andrew Nicholas</h5>
 				<h5 class="footer__text__margins footer__link__text__padding"><a class="link_text" href="mailto:andrew.d.nicholas@gmail.com" target="_top"> andrew.d.nicholas@gmail.com </a></h5>	
 			</div>
+			<div class ="footer_facebook_link"><a href="https://www.facebook.com/andrew.nicholas2"><img src="assets/FB-f-Logo__blue_50.png" alt="Facebook Link"></a> </div>
 		</footer>
 	</body>
 </html>
