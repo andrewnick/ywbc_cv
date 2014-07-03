@@ -61,9 +61,10 @@ section {
 }
 
 .header__picture {
-	position: absolute;
-	margin-top: 150px;
-	bottom:50%;
+	position: relative;
+	margin-top: 50%;
+	top: -170px;
+	/*bottom:50%;*/
 }
 
 .header_nav {
