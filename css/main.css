@@ -164,6 +164,10 @@ section {
 	margin-top:100px;
 }
 
+.fl-l {
+	float:left
+}
+
 /* Utility Text */
 .link_text{
 	text-decoration: none;	
