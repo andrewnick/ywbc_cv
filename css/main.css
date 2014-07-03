@@ -14,6 +14,7 @@ body {
 main {
 	position: relative;
 	padding-top: 350px;
+	z-index:-1;
 }
 
 /* Header styling */
@@ -25,9 +26,9 @@ main {
 .header_container_text {
 	display: block;
 	height: 300px;
-	background-image: url("../assets/ski2.jpeg");
+	background-color: white;
+	/*background-image: url("../assets/ski2.jpeg");*/
 	background-repeat: no-repeat;
-	z-index: -1;
 }
 
 .header__picture_container {
@@ -38,12 +39,13 @@ main {
 
 .header_nav {
 	border-top: 2px solid black;
-	border-bottom: 2px solid black;		
+	border-bottom: 2px solid black;	
+	background-color: white;	
 	padding:10px;
 	clear:both;
 }
 .header__title {
-	color: white;
+	color: black;
 	display:inline-block;
 	float:left;
 }
@@ -60,21 +62,32 @@ main {
 
 /*Style for link text*/
 .button {
-	width: 25%;
-	height:50px;
+	vertical-align: middle;
+}
+
+.button__textsyle{
 	font-size: 24px;
 	color: white;
 	text-decoration: none;
 	text-align: center;
-	vertical-align: middle;
+}
+
+.button_container{
+	display: inline-block;
+	width: 200px;
+	height:50px;	
 }
 
 .button:hover{
 	color:#c7b8a5 ;
 }
 
-.button_color{
+.button--blue{
 	background-color:#7da1df;
+}
+
+.button--orange{
+	background-color:#fc5305;
 }
 
  /*Clearfix work around*/
