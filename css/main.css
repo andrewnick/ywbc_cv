@@ -137,6 +137,10 @@ section {
 /* Footer Styles */
 
 /* Logo size and position */
+
+.footer_container {
+	height: 158px;
+}
 .footer__container__text {
 	display: inline-block;
 	margin-bottom: 20px;
@@ -162,7 +166,7 @@ section {
 
 /* Utility Text */
 .link_text{
-	text-decoration: none;
+	text-decoration: none;	
 }
 
 .content_indent {
