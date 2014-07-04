@@ -9,22 +9,39 @@ body {
 	width:1200px;
 	margin: 0 auto;
 	font-family: "Lucida Sans Unicode" "Lucida Grande" sans-serif;
+	/*background-color: #c7b8a5;*/
 }
 
 main {
-	/*padding-top: 20px;*/
 	padding-left: 50px;
 	padding-right: 50px;
+	color: black; 
 }
 
 section {
 	padding-top: 20px;
 }
 
+h2 {
+	color: #1149b6;
+}
+
+h3 {
+	color: #fc5305;
+}
+
+h4,
+h5 {
+	color: black;
+}
+
+
 /* Header styling */
 .header_container {
 	width: inherit;
 	height:350px;
+	background-image: url("../assets/0001_mountain_landscape_AN_02.png");
+	background-repeat: no-repeat;
 }
 
 .header_text_container {
@@ -32,8 +49,6 @@ section {
 	width:800px;
 	height: 300px;
 	float:left;
-	/*background-image: url("../assets/ski2.jpeg");*/
-	/*background-repeat: no-repeat;*/
 }
 
 .header__picture_container {
@@ -47,7 +62,7 @@ section {
 	font-size: 60px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: black;
+	color: white;
 	position: relative;
 	left:150px;
 	top: 100px;
@@ -58,18 +73,15 @@ section {
 	left:150px;
 	top: 90px;
 	list-style-type: none;
+	color: white;
 }
 
 .header__picture {
 	position: relative;
 	margin-top: 50%;
 	top: -170px;
-	/*bottom:50%;*/
 }
 
-.header_nav {
-	padding-left:20px;
-}
 
 .button {
 	vertical-align: middle;
@@ -84,9 +96,15 @@ section {
 
 .button_container {
 	display: inline-block;
+	margin-top: 10px;
+	margin-left:20px;
 	width: 275px;
 	height:50px;	
 	text-align: center;
+}
+
+.button_right {
+	margin-left: 10px;
 }
 
 .button__textsyle:hover {
@@ -117,6 +135,19 @@ section {
 	float: right;
 }
 
+.exp_title {
+	margin-bottom: 10px;
+}
+
+.exp_company {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.exp_date {
+	margin-top: 10px;
+}
+
 .edu__title {
 	margin-bottom: 10px;
 }
@@ -140,6 +171,7 @@ section {
 
 .footer_container {
 	height: 158px;
+
 }
 .footer__container__text {
 	display: inline-block;
@@ -164,13 +196,14 @@ section {
 	margin-top:100px;
 }
 
-.fl-l {
+.footer-fl {
 	float:left
 }
 
 /* Utility Text */
 .link_text{
 	text-decoration: none;	
+	color: #7da1df;
 }
 
 .content_indent {
