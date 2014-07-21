@@ -1,8 +1,20 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 	<head>
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+	    <link rel="icon" href="../../favicon.ico">
+
 		<title>Resume</title>
-		<link rel="stylesheet" href="css/main.css">
+		
+		<!-- Bootstrap core CSS -->
+   		<link href="css/bootstrap.css" rel="stylesheet">
+
+   		 <!-- Custom styles for this template -->
+    	<link href="css/main.css" rel="stylesheet">
+
 		<meta charset="UTF-8">
 		<meta name="author" content="Andrew Nicholas">
 		<meta name="description" content="Andrew Nicholas' Resume">
@@ -10,33 +22,48 @@
 	</head>
 	<body>
 		<!--  -->
-		<header class="header_container clearfix">
-			<div class="header_text_container">
-					<h1 class="header__title">Andrew Nicholas</h1>				
-					<ul class="header__details">
-						<li><strong>Email:</strong> <a class="link_text" href="mailto:andrew.d.nicholas@gmail.com" target="_top"> andrew.d.nicholas@gmail.com </a> </li>
-						<li><strong>Phone:</strong> 027 304 3384</li>
-					</ul>					
+		<header class="container clearfix">
+			<div class="row header__bg_img">
+				<!-- <div class="header_text_container"> -->
+					<div class="row">
+						<h1 class="header__title col-md-10 col-md-offset-2 ">Andrew Nicholas</h1>	
+					</div>
+					<div class="row">				
+						<ul class="header__details col-md-10 col-md-offset-2">
+							<li><strong>Email:</strong> <a class="link_text" href="mailto:andrew.d.nicholas@gmail.com" target="_top"> andrew.d.nicholas@gmail.com </a> </li>
+							<li><strong>Phone:</strong> 027 304 3384</li>
+						</ul>										
+					</div>			
 			</div>
 
-			<div class= "header__picture_container">
+<!-- 			<div class= "header__picture_container">
 					<img class=	"header__picture" src="assets/0001_profile_picture_AN_02.png" alt="Profile picture">
-			</div>
+			</div> -->
 			
 			<!-- Navigation links to the different sections of the same page -->
-			<nav class="header_nav">
-				<div class="button_container button--blue button_right">
-					<a class="button__textsyle" href="#intro">Introduction</a>
-				</div>
-				<div class="button_container button--blue">
-					<a class="button__textsyle" href="#exp">Experience</a>
-				</div>
-				<div class="button_container button--blue">
-					<a class="button__textsyle" href="#edu">Education</a>
-				</div>
-				<div class="button_container button--blue">
-					<a class="button__textsyle" href="#skills">Skills</a>
-				</div>
+			<nav class="row clearfix">
+				<ul class="nav nav-pills nav-justified button--blue nav--hov">
+					<li>
+						<!-- <div class="button_container button-blue button_right col-md-3"> -->
+						<a class="button__textsyle" href="#intro">Introduction</a>
+						<!-- </div> -->
+					</li>
+					<li>
+						<!-- <div class="button_container button-blue col-md-3"> -->
+						<a class="button__textsyle" href="#exp">Experience</a>
+						<!-- </div> -->
+					</li>
+					<li>
+						<!-- <div class="button_container button-blue col-md-3"> -->
+						<a class="button__textsyle" href="#edu">Education</a>
+						<!-- </div> -->
+					</li>
+					<li>
+						<!-- <div class="button_container button-blue col-md-3"> -->
+						<a class="button__textsyle" href="#skills">Skills</a>
+						<!-- </div> -->
+					</li>
+				</ul>				
 			</nav> 			
 		</header>
 
@@ -159,5 +186,11 @@
 			</div>
 			<div class ="footer_facebook_link"><a href="https://www.facebook.com/andrew.nicholas2"><img src="assets/FB-f-Logo__blue_50.png" alt="Facebook Link"></a> </div>
 		</footer>
+
+		<!-- Bootstrap core JavaScript
+	    ================================================== -->
+	    <!-- Placed at the end of the document so the pages load faster -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <script src="../../dist/js/bootstrap.min.js"></script>
 	</body>
 </html>
